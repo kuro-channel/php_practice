@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+body {
+    display: block;
+    padding: 50px;
+    background: #f7f7f7;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 86%;
+}
+
+input[type="text"],
+input[type="password"] {
+    line-height: 25px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 86%;
+    line-height: 1.0em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #37a1e5;
+}
+
+textarea {
+    width: 50%;
+    max-width: 50%;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+article {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.info h2 {
+    display: inline-block;
+    margin-right: 10px;
+    color: #222;
+    line-height: 1.6em;
+    font-size: 86%;
+}
+
+.info time {
+    color: #999;
+    line-height: 1.6em;
+    font-size: 72%;
+}
+
+.success_message {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #48b400;
+    border-radius: 10px;
+    border: 1px solid #48b400;
+}
+
+.error_message {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #ff5f79;
+    border-radius: 10px;
+    border: 1px solid #ff5f79;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.success_message,
+.error_message li {
+    font-size: 86%;
+    line-height: 1.6em;
+}
+
+@media only screen and (max-width: 1000px) {
+    input[type="text"] {
+        width: 100%;
+    }
+    textarea {
+        width: 100%;
+        max-width: 100%;
+        height: 70px;
+    }
+}
